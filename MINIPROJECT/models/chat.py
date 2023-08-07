@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
+import plotly.express as px
 
 #loading in the dataset
 df = pd.read_csv('MINIPROJECT/Mall_Customers.csv')
